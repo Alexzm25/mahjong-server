@@ -6,7 +6,6 @@
     "module": "commonjs",
     "outDir": "dist",
     "rootDir": "src",
-    "strict": true,
     "esModuleInterop": true,
 
     // Environment Settings
@@ -38,7 +37,7 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
