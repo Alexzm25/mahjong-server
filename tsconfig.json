@@ -39,8 +39,14 @@
     "jsx": "react-jsx",
     "verbatimModuleSyntax": false,
     "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+  },
+  "files": [
+    "src/index.ts",
+    "src/socket.ts",
+    "src/game.ts",
+    "src/types.ts"
+  ],
+  "exclude": ["client", "dist", "node_modules"]
 }
