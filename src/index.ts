@@ -12,6 +12,10 @@ app.use(
 	})
 );
 
+app.get('/', (req, res) => {
+	res.send('Memory Game Server is running');
+});
+
 const httpServer = createServer(app);
 
 const io = new SocketIOServer(httpServer, {
